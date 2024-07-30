@@ -1,0 +1,117 @@
+/* Add this to your existing styles.css */
+
+.checkout-container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header .icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.order-summary {
+    padding: 20px;
+}
+
+.order-summary h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.summary-item,
+.summary-total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.summary-item p,
+.summary-total p {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.summary-item span,
+.summary-total span {
+    font-size: 18px;
+    color: #666;
+}
+
+.summary-total {
+    font-weight: bold;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.pickup-delivery-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option img {
+    width: 40px;
+    height: 40px;
+}
+
+.delivery-time-options {
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.time-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.time-option input {
+    margin-right: 10px;
+}
+
+.checkout-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: calc(100% - 40px);
+    margin: 0 20px;
+}
+
+.checkout-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranpere Laundry Services - Order Details</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="order-details-container">
+        <header>
+            <h1>Orders</h1>
+            <div class="icons">
+                <img src="cart-icon.png" alt="Cart Icon">
+                <img src="user-icon.png" alt="User Icon">
+            </div>
+        </header>
+        <main>
+            <div class="order-details-list">
+                <div class="order-details-item">
+                    <img src="washing.png" alt="Washing">
+                    <div class="details">
+                        <p>Washing</p>
+                        <span>$15</span>
+                        <input type="checkbox" checked>
+                    </div>
+                </div>
+                <div class="order-details-item">
+                    <img src="drying.png" alt="Drying">
+                    <div class="details">
+                        <p>Drying</p>
+                        <span>$10</span>
+                        <input type="checkbox" checked>
+                    </div>
+                </div>
+                <div class="order-details-item">
+                    <img src="ironing.png" alt="Ironing">
+                    <div class="details">
+                        <p>Ironing</p>
+                        <span>$17</span>
+                        <input type="checkbox" checked>
+                    </div>
+                </div>
+            </div>
+            <p class="order-notice">***Orders are typically completed in three business days.</p>
+        </main>
+        <footer>
+            <div class="pickup-delivery-options">
+                <div class="option">
+                    <img src="pickup-icon.png" alt="Pickup">
+                    <p>Pickup</p>
+                </div>
+                <div class="option">
+                    <img src="delivery-icon.png" alt="Delivery">
+                    <p>Delivery</p>
+                </div>
+            </div>
+            <div class="delivery-time-options">
+                <div class="time-option">
+                    <input type="radio" name="delivery-time" id="standard" checked>
+                    <label for="standard">In 3-5 days</label>
+                </div>
+                <div class="time-option">
+                    <input type="radio" name="delivery-time" id="express">
+                    <label for="express">In 1-3 days (Additional cost involved)</label>
+                </div>
+            </div>
+            <button class="checkout-button">Checkout</button>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

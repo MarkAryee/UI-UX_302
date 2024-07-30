@@ -1,0 +1,132 @@
+/* Add this to your existing styles.css */
+
+.order-details-container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header .icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.order-details-list {
+    padding: 20px;
+}
+
+.order-details-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.order-details-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.details p {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.details span {
+    font-size: 16px;
+    color: #666;
+}
+
+.details input {
+    margin-top: 10px;
+}
+
+.order-notice {
+    padding: 0 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.pickup-delivery-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option img {
+    width: 40px;
+    height: 40px;
+}
+
+.delivery-time-options {
+    margin-bottom: 20px;
+}
+
+.time-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.time-option input {
+    margin-right: 10px;
+}
+
+.checkout-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.checkout-button:hover {
+    background-color: #0056b3;
+}
