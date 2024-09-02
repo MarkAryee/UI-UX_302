@@ -19,14 +19,32 @@ document.addEventListener('DOMContentLoaded', function() {
     const serviceItems = document.querySelectorAll('.service-item');
     
     serviceItems[0].addEventListener('click', function() {
-        window.location.href = '../3/index.html'; // Replace with appropriate page if needed
+        setTimeout(slideOutAndRedirect, 100);
+		//window.location.href = '../3/index.html'; // Replace with appropriate page if needed
     });
 
     serviceItems[1].addEventListener('click', function() {
-        window.location.href = 'service-selection.html'; // Replace with appropriate page if needed
+        //window.location.href = 'service-selection.html'; // Replace with appropriate page if needed
     });
 
     serviceItems[2].addEventListener('click', function() {
-        window.location.href = 'service-selection.html'; // Replace with appropriate page if needed
+        //window.location.href = 'service-selection.html'; // Replace with appropriate page if needed
     });
 });
+
+
+
+
+
+
+
+
+
+
+function slideOutAndRedirect() {
+    document.body.style.animation = 'slideOut 1s forwards';
+    setTimeout(function() {
+        window.location.href = '../3/index.html'; // Replace with your next page's filename
+    }, 1000); // Wait for the slide out animation to complete
+}
+

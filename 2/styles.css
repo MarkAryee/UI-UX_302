@@ -75,3 +75,34 @@ header .icons img {
     font-size: 18px;
     color: #333;
 }
+
+
+
+
+
+
+
+html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevent scrollbars during transitions */
+            font-family: Arial, sans-serif;
+           /* display: flex;*/
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            animation: slideIn 1s forwards;
+}
+
+/* Slide in effect */
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+
+        /* Slide out effect */
+        @keyframes slideOut {
+            from { transform: translateX(0); }
+            to { transform: translateX(200%); }
+        }	
