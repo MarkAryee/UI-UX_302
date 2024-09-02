@@ -50,12 +50,7 @@ header .icons img {
 }
 .service-item img{
     width: 300px;
-}
-
-.service-item p {
-    font-size: 26px;
-    color: #333;
-    margin: 0;
+    height: 240px;
 }
 
 .order-item img {
@@ -67,9 +62,9 @@ header .icons img {
 .order-details {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: flex-start;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .order-details p {
@@ -78,10 +73,17 @@ header .icons img {
     margin: 0;
 }
 
+.service-item p {
+    font-size: 24px;
+	
+    color: #333;
+    margin-bottom: 7px;
+}
+
 .order-details span {
     font-size: 16px;
     color: #666;
-	margin-left: 50%;
+	margin-left: 65%;
 }
 
 .order-button {
@@ -93,7 +95,8 @@ header .icons img {
     cursor: pointer;
     font-size: 16px;
     margin-top: 20px;
-    width: 100%;
+    margin-left: 25%;
+    width: 50%;
 }
 
 .order-button:hover {
