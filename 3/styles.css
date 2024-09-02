@@ -52,6 +52,12 @@ header .icons img {
     width: 300px;
 }
 
+.service-item p {
+    font-size: 26px;
+    color: #333;
+    margin: 0;
+}
+
 .order-item img {
     width: 300px;
     height: 60px;
