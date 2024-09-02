@@ -49,12 +49,24 @@ header .icons img {
 .service-item {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+	border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.service-item:hover, .order-item:hover {
+    transform: scale(1.05);
+}
+
+.service-item img, .order-item img {
+    width: 100%;
+    border-radius: 5px;
 }
 
 .service-item img {
-    width: 60px;
-    height: 60px;
+    width: 300px;
+    height: 80px;
     border-radius: 5px;
     margin-right: 20px;
 }

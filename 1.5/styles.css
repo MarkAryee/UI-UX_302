@@ -1,0 +1,83 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #a6c5e9;
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #004aad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0072ff;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 40px);
+    max-width: 400px;
+}
+
+.service-item, .order-item {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover, .order-item:hover {
+    transform: scale(1.05);
+}
+
+.service-item img, .order-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contact-info p {
+    margin: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.options button {
+    margin: 5px;
+}
