@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--><!DOCTYPE html>
 <html>
 <head>
 	<title>App Screens</title>
@@ -12,5 +12,57 @@
 		<li><a href="./4/index.html">Screen 4</a></li>
 		<li><a href="./5/index.html">Screen 5</a></li>
 	</ul>
+</body>
+</html>
+<--!>
+
+<!-- splash.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry App</title>
+    <style>
+        /* Embedded CSS for Splash Screen */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #a6c5e9; /* Optional: Customize your background color */
+            font-family: Arial, sans-serif;
+        }
+
+        .splash-container {
+            text-align: center;
+        }
+
+        .splash-container h1 {
+            font-size: 3em;
+            color: #004aad;
+            font-weight: bold;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Optional: Fade in effect */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="splash-container">
+        <h1>Laundry App</h1>
+    </div>
+    <script>
+        // Redirect after 3 seconds
+        setTimeout(function() {
+            window.location.href = '1/index.html'; // Replace with your next page's filename
+        }, 3000);
+    </script>
 </body>
 </html>
