@@ -1,8 +1,7 @@
 /* Add this to your existing styles.css */
 
 .orders-container {
-    width: 90%;
-    max-width: 400px;
+    width: 400px;
     margin: auto;
     background-color: #fefefe;
     border-radius: 10px;
@@ -31,17 +30,23 @@ header .icons img {
 }
 
 .order-list {
-    padding: 20px;
+    
 }
 
 .order-item {
-    display: flex;
-    align-items: center;
+    
+    
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+	
+	display: flex;
+	flex-direction: column;
     
 }
 
 .service-item {
     display: flex;
+	flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
 	justify-content: space-between;
@@ -49,31 +54,38 @@ header .icons img {
 	padding-bottom: 10px;
 }
 .service-item img{
-    position: relative;
-    width: 100%;
+   
+    width: 300px;
     height: 240px;
 }
 
 .order-item img {
-    position: relative;
-    width: 100%;
+    margin : auto;
+    width: 300px;
     height: 60px;
     border-radius: 5px;
 }
 
 .order-details {
+	
+    margin-left: 50px;
+	
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    width: 50%;
-    margin-left: 0px;
+    align-items: center;
+	
+	
+    width: 50px;
 }
 
-.order-details p {
-    font-size: 18px;
-    color: #333;
-    margin: 0;
+.order-details p{
+	margin-left: 0px
 }
+
+.order-details span{
+	margin-left: 180px;
+}
+
 
 .service-item p {
     font-size: 24px;
@@ -82,11 +94,7 @@ header .icons img {
     margin-bottom: 7px;
 }
 
-.order-details span {
-    font-size: 16px;
-    color: #666;
-	margin-left: 65%;
-}
+
 
 .order-button {
     background-color: #007bff;
@@ -113,10 +121,11 @@ header .icons img {
 
 
 html {
+	
             margin: 0;
             padding: 0;
             height: 100%;
-             /*overflow: hidden; Prevent scrollbars during transitions */
+            /*overflow: hidden;  Prevent scrollbars during transitions */
             font-family: Arial, sans-serif;
            
             justify-content: center;
@@ -127,12 +136,12 @@ html {
 
 /* Slide in effect */
         @keyframes slideIn {
-            from { transform: translateX(-100%); }
-            to { transform: translateX(0); }
+            from { transform: translateX(-100%); width: 400px;}
+            to { transform: translateX(0); width: 400px;}
         }
 
         /* Slide out effect */
         @keyframes slideOut {
-            from { transform: translateX(0); }
-            to { transform: translateX(200%); }
+            from { transform: translateX(0); width: 400px;}
+            to { transform: translateX(200%); width: 400px;}
         }	
