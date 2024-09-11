@@ -65,7 +65,7 @@ header .icons img {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    width: 100%;
+    width: 50%;
     margin-left: 0px;
 }
 
