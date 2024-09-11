@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.body.style.animation = 'slideOut 1s forwards';
             setTimeout(function() {
                 window.location.href = '../1.5/signup.html'; // Replace with your next page's filename
-            }, 1000); // Wait for the slide out animation to complete
+            }, 100); // Wait for the slide out animation to complete
         }
 
         // Trigger slide out and redirect after 3 seconds
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const loginButton = document.querySelector('.login-button');
     loginButton.addEventListener('click', function() {
-        setTimeout(slideOutAndRedirect, 100);
+        setTimeout(slideOutAndRedirect, 10);
     });
 });		
 		
