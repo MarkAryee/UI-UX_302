@@ -114,7 +114,7 @@ html {
             margin: 0;
             padding: 0;
             height: 100%;
-            overflow: hidden; /* Prevent scrollbars during transitions */
+             /*overflow: hidden; Prevent scrollbars during transitions */
             font-family: Arial, sans-serif;
            
             justify-content: center;
