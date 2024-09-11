@@ -11,7 +11,7 @@ body {
 
 .login-container {
     background: linear-gradient(to bottom, #f0f0f0, #ffffff);
-    width: 90%;
+    width: 100%;
     max-width: 400px;
     text-align: center;
     border-radius: 10px;
@@ -84,14 +84,15 @@ html {
             animation: slideIn 1s forwards;
 }
 
+
 /* Slide in effect */
         @keyframes slideIn {
-            from { transform: translateX(-100%); }
-            to { transform: translateX(0); }
+            from { opacity: 0%;}
+            to { opacity: 100%;}
         }
 
         /* Slide out effect */
         @keyframes slideOut {
-            from { transform: translateX(0); }
-            to { transform: translateX(300%); }
-        }	
+            from { opacity: 100%;}
+            to { opacity: 0%;}
+        }		

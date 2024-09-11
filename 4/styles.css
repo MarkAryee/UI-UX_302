@@ -1,12 +1,13 @@
 /* Add this to your existing styles.css */
 
 .order-details-container {
-    width: 400px;
+    width: 100%;
+    
     margin: auto;
     background-color: #fefefe;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+   
     padding-bottom: 20px;
 }
 
@@ -34,14 +35,13 @@ header .icons img {
 }
 
 .order-details-item {
-    padding-left: 0px;
-    
-    justify-content: space-between;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 16px;
-	
-	display: flex;
+    display: flex;
 	flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+	justify-content: space-between;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
     
 	
 }
@@ -55,14 +55,14 @@ header .icons img {
 }
 
 .details {
-	margin-left: 50px;
+	
 	
     display: flex;
     flex-direction: row;
     align-items: center;
 	
 	
-    width: 50px;
+    
     
 }
 
@@ -164,15 +164,15 @@ html {
             animation: slideIn 1s forwards;
 }
 
+
 /* Slide in effect */
         @keyframes slideIn {
-			
-            from { transform: translateX(-100%); width: 400px;}
-            to { transform: translateX(0); width: 400px;}
+            from { opacity: 0%;}
+            to { opacity: 100%;}
         }
 
         /* Slide out effect */
         @keyframes slideOut {
-            from { transform: translateX(0); width: 400px;}
-            to { transform: translateX(200%); width: 400px;}
+            from { opacity: 100%;}
+            to { opacity: 0%;}
         }	

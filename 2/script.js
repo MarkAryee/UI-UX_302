@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const serviceItems = document.querySelectorAll('.service-item');
     
     serviceItems[0].addEventListener('click', function() {
-        setTimeout(slideOutAndRedirect, 100);
+        setTimeout(slideOutAndRedirect, 10);
 		//window.location.href = '../3/index.html'; // Replace with appropriate page if needed
     });
 
@@ -45,6 +45,6 @@ function slideOutAndRedirect() {
     document.body.style.animation = 'slideOut 1s forwards';
     setTimeout(function() {
         window.location.href = '../3/index.html'; // Replace with your next page's filename
-    }, 1000); // Wait for the slide out animation to complete
+    }, 100); // Wait for the slide out animation to complete
 }
 

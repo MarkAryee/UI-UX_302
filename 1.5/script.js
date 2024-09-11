@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
             button.style.transform = 'scale(0.95)';
             setTimeout(() => {
                 button.style.transform = 'scale(1)';
-            }, 200);
-			setTimeout(slideOutAndRedirect, 200);
+            }, 12);
+			setTimeout(slideOutAndRedirect, 100);
         });
     });
 });	

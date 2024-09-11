@@ -11,12 +11,12 @@ function slideOutAndRedirect() {
     document.body.style.animation = 'slideOut 1s forwards';
     setTimeout(function() {
         window.location.href = '../4/index.html'; 
-    }, 1000); // Wait for the slide out animation to complete
+    }, 100); // Wait for the slide out animation to complete
 }
 
 document.addEventListener('DOMContentLoaded', function() {
     const loginButton = document.querySelector('.order-button');
     loginButton.addEventListener('click', function() {
-        setTimeout(slideOutAndRedirect, 100);
+        setTimeout(slideOutAndRedirect, 10);
     });
 });
