@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function slideOutAndRedirect2() {
             document.body.style.animation = 'slideOut 1s forwards';
             setTimeout(function() {
-                window.location.href = '2.html'; // Replace with your next page's filename
+                window.location.href = '../2/index.html'; // Replace with your next page's filename
             }, 100); // Wait for the slide out animation to complete
         }	
 		
